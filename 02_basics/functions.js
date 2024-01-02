@@ -22,18 +22,37 @@ function addTwoNumbers(number1, number2){
 }
 
 const result = addTwoNumbers(3, 5)
-console.log("Result: ", result);
+//console.log("Result: ", result);
 
 
 function loginUserMessage(username ){
-    if(!username){
-        console.log("PLease enter a username");
-        return
+   
+        return `${username} is my name`
     }
-    return `${username} just logged in`
+    
+
+//console.log(loginUserMessage("codeo"))
+// console.log(loginUserMessage("codeo"))
+
+function calculatecartprice(...num1) {
+    return  num1
+
 }
+//console.log(calculatecartprice(200,400,500))
+const user = {
+    username : "codeo",
+    price : 200
+}
+function handleobject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
 
-// console.log(loginUserMessage("codeo"))
-// console.log(loginUserMessage("codeo"))
+}
+//handleobject(user)
 
+const mynewarray = [100,200,400,600]
+function returnsecondvalue(getArray){
+    return getArray[0]
 
+}
+//console.log(returnsecondvalue(mynewarray));
+console.log(returnsecondvalue([300,500,800,900]));
