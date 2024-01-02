@@ -26,9 +26,21 @@ const obj3 = {...obj1, ...obj2, ...obj4}  //spread method mostly used
 //console.log(obj3);
 
 
-console.log(Object.keys(twitterUser));   //important
-console.log(Object.values(proUser));
-console.log(Object.entries(twitterUser));
-console.log(twitterUser.hasOwnProperty('isLoggedIn'));
+// console.log(Object.keys(twitterUser));   //important
+// console.log(Object.values(proUser));
+// console.log(Object.entries(twitterUser));
+// console.log(twitterUser.hasOwnProperty('isLoggedIn'));
 
 
+const course = {
+    coursename: "js power",
+    price: "999",
+    courseInstructor: "codeo"
+}
+
+// course.courseInstructor
+
+const {courseInstructor} = course
+
+ console.log(courseInstructor,;
+//console.log(instructor);
