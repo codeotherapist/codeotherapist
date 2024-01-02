@@ -41,6 +41,5 @@ const course = {
 // course.courseInstructor
 
 const {courseInstructor} = course
-
- console.log(courseInstructor,;
-//console.log(instructor);
+const {courseInstructor: instructor } = course
+console.log(instructor);
