@@ -16,24 +16,22 @@ for (let i = 1; i <=20; i++) {
     
 }
 
-let myarray = ["ironman","thor","spiderman"]
-console.log(myarray.length)
-for (let index = 0;
+
 
 // break and continue
 
 for (let index = 0; index <=20; index++) {
     if(index==5){
-        console.log('5 is detected');
+       // console.log('5 is detected');
         break;
     }
-   //console.log(`value of i is ${index}`);   
+        //console.log(`value of i is ${index}`);   
 }
 for (let index = 0; index <=20; index++) {
     if(index==5){
-        console.log('5 is detected');
+      //  console.log('5 is detected');
         continue;
     }
-   console.log(`value of i is ${index}`);   
+   //console.log(`value of i is ${index}`);   
 }
 
