@@ -18,11 +18,7 @@ for (let i = 1; i <=20; i++) {
 
 let myarray = ["ironman","thor","spiderman"]
 console.log(myarray.length)
-for (let index = 0; index < myarray.length; index++) {
-    const element = myarray[index];
-    //console.log(element);
-    
-}
+for (let index = 0;
 
 // break and continue
 
